@@ -9,38 +9,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normolizer.css">
 </head>
 <body>
 <nav>
-  <ul>
-    <li>
-      <a href="Home">Home 
-      </a>
-    </li>
-    <li><a href="About me">About me
-    </a>
-    </li>
-    <li><a href="Skills">Skills
-
-    </a>
-    </li>
-    <li><a href="Portfolio">Portfolio
-
-    </a>
-    </li>
-    <li><a href="Contacts">Contacts
-    </a>
-    </li>
-  </ul>    
+  <ul class="nav">
+    <li><a href="#header1">Home</a></li>
+    <li><a href="#header2">About me</a></li>
+    <li><a href="#header3">Skills</a></li>
+    <li><a href="#header4">Portfolio</a></li>
+    <li ><a href="#header5">Contacts</a></li>
+  </ul>
 </nav>
 <br>
-<br>
-<h1>Denis Novik</h1>
-<img src="images/main.jpg" alt="">
-<div class="block">
-  <h2>About me</h2>
-  <p>Hi, I'm Denis – UX/UI designer from Minsk.
-    I'm interested in design and everything connected with it.
+<h1 id="header1">Denis Novik</h1>
+<img  src="images/main.jpg" alt="">
+<section class="about">
+  <h2 id="header2">About me</h2>
+  <p>
+    Hi, I'm Denis – UX/UI designer from Minsk.
+I'm interested in design and everything connected with it.
   </p>
   <p>
     I'm studying at courses "Web and mobile design 
@@ -50,18 +38,12 @@ interfaces" in IT-Academy.
     Ready to implement excellent projects
  with wonderful people.
   </p>
-</div>
-<div>
-  <h2>Skills</h2>
-  <p>I work in such programs as</p>
-  
-  <div class="images">
-  <img src="images/AF.jpg" alt="">
-  <img src="images/Ai.jpg" alt="">
-  <img src="images/Ps.jpg" alt="">
-  <img src="images/Figma.jpg" alt="">
-  </div>
-</div>
-<h2></h2>
-</body>
-</html>
+</section>
+<section class="skills">
+  <h3 id="header3">Skills</h3>
+  <p>
+    I work in such programs as
+  </p>
+  <br><br>
+   <img src="images/product-list.jpg" alt="">
+</section>
